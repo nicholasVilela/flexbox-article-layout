@@ -25,7 +25,11 @@ body {
 }
 
 .margin {
-  margin: 3rem 3rem 3rem 3rem;
+  margin: 4.5rem 4.5rem 4.5rem 4.5rem;
+}
+
+.wide-article {
+  width: 100%;
 }
 
 .title-pad {
@@ -108,6 +112,8 @@ p {
   height: 6.5rem;
 }
 
+/* RIGHT SIDE OF SCREEN */
+
 .organize {
   display: flex;
   flex-direction: column;
@@ -126,45 +132,4 @@ p {
   /* top: 0%; */
   /* height: 50%; */
   width: 40%;
-}
-
-
-/* NEW */
-
-.left-side {
-  display: flex;
-  width: 95%;
-  flex-flow: row wrap;
-}
-
-.wide-article2 {
-  width: 50%;
-  margin-bottom: 5rem;
-}
-
-.small-article2 {
-  width: 25%;
-}
-
-.text-wrap {
-  width: 75%;
-}
-
-.read-more {
-  font-weight: 900;
-}
-
-.hr-line {
-  background-color: black;
-  height: 4px;
-  margin-left: 0rem;
-  width: 5.7rem;
-}
-
-.test {
-  /* margin-rights: 1rem; */
-}
-
-.padding-top {
-  padding-top: 1rem;
 }
